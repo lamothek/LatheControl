@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name CustomFootrpints)(type KiCad)(uri ${KIPRJMOD}/CustomFootrpints)(options "")(descr ""))
+)

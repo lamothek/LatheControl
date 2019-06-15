@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name LatheControl-rescue)(type Legacy)(uri ${KIPRJMOD}/LatheControl-rescue.lib)(options "")(descr ""))
+  (lib (name FS16-150)(type Legacy)(uri ${KIPRJMOD}/CustomLibrary/FS16-150.lib)(options "")(descr ""))
+)

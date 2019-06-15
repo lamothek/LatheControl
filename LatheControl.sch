@@ -1,0 +1,125 @@
+EESchema Schematic File Version 4
+LIBS:LatheControl-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 3
+Title "Lathe Speed Control"
+Date ""
+Rev "01"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L LatheControl-rescue:PWR_FLAG #FLG02
+U 1 1 5AE6ADB9
+P 5600 1175
+F 0 "#FLG02" H 5600 1250 50  0001 C CNN
+F 1 "PWR_FLAG" H 5600 1325 50  0000 C CNN
+F 2 "" H 5600 1175 50  0001 C CNN
+F 3 "" H 5600 1175 50  0001 C CNN
+	1    5600 1175
+	1    0    0    -1  
+$EndComp
+$Comp
+L LatheControl-rescue:PWR_FLAG #FLG04
+U 1 1 5AE6ADCB
+P 6525 1175
+F 0 "#FLG04" H 6525 1250 50  0001 C CNN
+F 1 "PWR_FLAG" H 6525 1325 50  0000 C CNN
+F 2 "" H 6525 1175 50  0001 C CNN
+F 3 "" H 6525 1175 50  0001 C CNN
+	1    6525 1175
+	1    0    0    -1  
+$EndComp
+$Comp
+L LatheControl-rescue:GND #PWR04
+U 1 1 5AE6ADE3
+P 6525 1325
+F 0 "#PWR04" H 6525 1075 50  0001 C CNN
+F 1 "GND" H 6525 1175 50  0000 C CNN
+F 2 "" H 6525 1325 50  0001 C CNN
+F 3 "" H 6525 1325 50  0001 C CNN
+	1    6525 1325
+	1    0    0    -1  
+$EndComp
+$Comp
+L LatheControl-rescue:+12V #PWR02
+U 1 1 5AE6ADF7
+P 5600 1325
+F 0 "#PWR02" H 5600 1175 50  0001 C CNN
+F 1 "+12V" H 5600 1465 50  0000 C CNN
+F 2 "" H 5600 1325 50  0001 C CNN
+F 3 "" H 5600 1325 50  0001 C CNN
+	1    5600 1325
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5600 1175 5600 1325
+Wire Wire Line
+	6525 1175 6525 1325
+$Comp
+L LatheControl-rescue:Earth #PWR01
+U 1 1 5AE6B1AB
+P 5125 1400
+F 0 "#PWR01" H 5125 1150 50  0001 C CNN
+F 1 "Earth" H 5125 1250 50  0001 C CNN
+F 2 "" H 5125 1400 50  0001 C CNN
+F 3 "" H 5125 1400 50  0001 C CNN
+	1    5125 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L LatheControl-rescue:PWR_FLAG #FLG01
+U 1 1 5AE6B222
+P 5125 1175
+F 0 "#FLG01" H 5125 1250 50  0001 C CNN
+F 1 "PWR_FLAG" H 5125 1325 50  0000 C CNN
+F 2 "" H 5125 1175 50  0001 C CNN
+F 3 "" H 5125 1175 50  0001 C CNN
+	1    5125 1175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5125 1175 5125 1400
+$Sheet
+S 5150 2675 1150 800 
+U 5AFD01F0
+F0 "PowerSupply" 60
+F1 "PowerSupply.sch" 60
+$EndSheet
+$Sheet
+S 5150 4025 1150 775 
+U 5AFD01F6
+F0 "MotorControl" 60
+F1 "MotorControl.sch" 60
+$EndSheet
+$Comp
+L LatheControl-rescue:PWR_FLAG #FLG03
+U 1 1 5C6B791F
+P 6075 1175
+F 0 "#FLG03" H 6075 1250 50  0001 C CNN
+F 1 "PWR_FLAG" H 6075 1325 50  0000 C CNN
+F 2 "" H 6075 1175 50  0001 C CNN
+F 3 "" H 6075 1175 50  0001 C CNN
+	1    6075 1175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6075 1175 6075 1325
+$Comp
+L power:VCC #PWR03
+U 1 1 5C7644BF
+P 6075 1325
+F 0 "#PWR03" H 6075 1175 50  0001 C CNN
+F 1 "VCC" H 6093 1498 50  0000 C CNN
+F 2 "" H 6075 1325 50  0001 C CNN
+F 3 "" H 6075 1325 50  0001 C CNN
+	1    6075 1325
+	-1   0    0    1   
+$EndComp
+$EndSCHEMATC

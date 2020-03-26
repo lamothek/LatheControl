@@ -59,8 +59,6 @@ F 3 "" H 5600 1325 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	5600 1175 5600 1325
-Wire Wire Line
 	6525 1175 6525 1325
 $Comp
 L LatheControl-rescue:Earth #PWR01
@@ -122,4 +120,6 @@ F 3 "" H 6075 1325 50  0001 C CNN
 	1    6075 1325
 	-1   0    0    1   
 $EndComp
+Wire Wire Line
+	5600 1175 5600 1325
 $EndSCHEMATC

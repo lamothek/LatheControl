@@ -1,4 +1,4 @@
-update=2019-03-26 11:24:30 PM
+update=2019-08-08 9:43:22 PM
 version=1
 last_client=kicad
 [cvpcb]
@@ -59,3 +59,13 @@ SolderMaskClearance=0.2
 SolderMaskMinWidth=0
 SolderPasteClearance=0
 SolderPasteRatio=-0
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=ReferenceFiles/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
